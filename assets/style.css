@@ -1,0 +1,123 @@
+  /**exemple igs-txt-red**/
+
+body{
+    background-color: rgb(122, 151, 93);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.igs-pub-bar
+{
+    width: 1500px;
+    margin: 0px;
+    padding: 0px;
+    background:greenyellow;
+    height: 210px;
+    background-image: url(images/banner.jpg);
+}
+.igs-div-Apropos
+{
+    
+    position: absolute;
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2px;
+    height: 300px;
+     margin-top: 560px;
+    
+}
+.igs-div-Apropos h1
+{
+    
+  
+}
+.igs-div-Mesprojets
+{
+    position: absolute;
+    width: 650px;
+    margin-left: 850px ;
+    margin-right: auto;
+    padding: 2px;
+    height: 500px;
+     margin-top: 50px;
+     
+}
+.igs-div-Mesclients
+{
+    position: absolute;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 100px;
+    
+    height: 500px;
+     margin-top: 50px;
+}
+
+.igs-div-moi
+{
+    height: 60px;
+  background:olive;  
+}
+.igs-pub-bar h1
+{
+    text-align: center;
+    font-family:Snap ITC;
+    color: rgb(73, 107, 9);
+    text-shadow: 6px 6px 3px orange;
+    font-size: 100px;
+}
+
+
+.igs-menu-bar
+{
+    border-radius: 30px;
+    background:darkblue ;
+    text-align: center;
+    width: 1000px;
+
+}
+.igs-menu-bar ul
+{
+   display: inline-flex ;
+   list-style: none; 
+   color: #fff;
+}
+.igs-menu-bar ul li
+{
+    width: 130px;
+    margin: 15px;
+    padding: 15px;
+}
+.igs-menu-bar ul li a 
+{
+    text-decoration: none ;
+    color:white;
+}
+.igs-active,  .igs-menu-bar ul li:hover
+{
+    background: #2bab0d;
+    border-radius: 3px;
+}
+.igs-sub-menu-1
+{
+    display: none;
+}
+
+.igs-menu-bar ul li:hover .igs-sub-menu-1
+{
+    display: block;
+    position: absolute;
+    background: rgb(0, 100, 0);
+    margin-top:15px;
+    margin-left:100px;
+}
+.igs-menu-bar ul li:hover .igs-sub-menu-1 ul
+{
+    display: block;
+    margin: 10px;
+}
+
